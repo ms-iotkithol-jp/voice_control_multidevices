@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<!- Azure Storage Account Connection String ->",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "listen_EVENTHUB": "<- Event Hub Connection String for listen role ->"
+  },
+  "ConnectionStrings": {
+    "IoTHubConnectionString": "<- IoT Hub Connection String for Service role ->"
+  }
+}
